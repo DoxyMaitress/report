@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.6.final using JasperReports Library version 6.20.6-5c96b6aa8a39ac1dc6b6bea4b81168e16dd39231  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_2" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0f7308b2-cdf3-44ff-a800-137e8444fb06">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="nombre" class="java.lang.String"/>
+	<field name="apellido" class="java.lang.String"/>
+	<field name="fechaNacimiento" class="java.lang.String"/>
+	<field name="lugarNacimiento" class="java.lang.String"/>
+	<field name="direccion" class="java.lang.String"/>
+	<field name="municipo" class="java.lang.String"/>
+	<field name="provincia" class="java.lang.String"/>
+	<field name="movil" class="java.lang.String"/>
+	<field name="telefono" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="426" splitType="Stretch">
+			<image>
+				<reportElement x="137" y="5" width="280" height="84" uuid="5e04360c-82d7-4f35-9fb3-a318993ed0e4"/>
+				<imageExpression><![CDATA["pngwing.com.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="130" y="111" width="190" height="75" forecolor="#140606" backcolor="#0A0202" uuid="0269274a-92fa-4713-b408-9bb56a4f3d56">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="60c61b12-70d4-4a7a-93aa-044d9d21922f"/>
+				</reportElement>
+				<text><![CDATA[nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="130" y="140" width="190" height="75" forecolor="#140606" backcolor="#0A0202" uuid="1785ca1a-f42f-4996-8769-9a1ef97ba27b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8f75a329-7e47-462b-abb6-7fc2bf7d615d"/>
+				</reportElement>
+				<text><![CDATA[apellido]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="130" y="170" width="190" height="75" forecolor="#140606" backcolor="#0A0202" uuid="89fba114-36ce-4884-b9a2-c817eee88d1b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="287dbd64-d467-46ac-b2ba-153d43c9db29"/>
+				</reportElement>
+				<text><![CDATA[fechaNacimiento]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="130" y="200" width="190" height="75" forecolor="#140606" backcolor="#0A0202" uuid="805d7c17-8a0c-4c1b-ab07-8eaa548ba2e6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="be439975-23ec-4c60-ba54-c5aac3f5306e"/>
+				</reportElement>
+				<text><![CDATA[lugarNacimiento]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="130" y="230" width="190" height="75" forecolor="#140606" backcolor="#0A0202" uuid="6da39753-1c7b-4e01-bf7f-465da25535d7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="39c604a8-afe0-4a42-8ee3-fd43ec1d63e7"/>
+				</reportElement>
+				<text><![CDATA[direccion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="130" y="260" width="190" height="75" forecolor="#140606" backcolor="#0A0202" uuid="8358b135-e8d4-4091-bdf5-7e4232e05901">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e839aec4-e3cb-4ebf-ad42-8ad7dba42286"/>
+				</reportElement>
+				<text><![CDATA[municipio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="130" y="290" width="190" height="75" forecolor="#140606" backcolor="#0A0202" uuid="dc8cb36f-77a7-4a7e-8544-1b4a8683dc63">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1717fbe1-ef8c-489c-a936-0598bcfc8eff"/>
+				</reportElement>
+				<text><![CDATA[provincia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="130" y="320" width="190" height="75" forecolor="#140606" backcolor="#0A0202" uuid="7f656a67-291f-4034-ab69-d47e09ff356e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5788f198-d5f6-4ee7-9405-608929615d05"/>
+				</reportElement>
+				<text><![CDATA[movil]]></text>
+			</staticText>
+			<staticText>
+				<reportElement stretchType="RelativeToTallestObject" x="130" y="351" width="190" height="75" forecolor="#140606" backcolor="#0A0202" uuid="f09dabfc-6bf2-44e6-a090-0903433dc25d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="339c958f-5ea6-4bd3-a841-35d09c707c0f"/>
+				</reportElement>
+				<text><![CDATA[telefono]]></text>
+			</staticText>
+			<image>
+				<reportElement x="430" y="112" width="130" height="128" uuid="000b9561-8c7c-47a8-b3ea-1dd00f89e52f"/>
+				<imageExpression><![CDATA["klipartz.com (2).png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="430" y="281" width="100" height="104" uuid="b709afee-0e1f-4813-b240-bcf6b2e1666e"/>
+				<imageExpression><![CDATA["klipartz.com (1).png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="10" y="111" width="100" height="104" uuid="a607bfc9-abe9-48d5-a912-9f175aef0b60"/>
+				<imageExpression><![CDATA["dd6dwz0-9213e1df-2760-474f-abff-8076a6da5995.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="10" y="281" width="100" height="104" uuid="0f467608-a74e-4f07-abd9-9710493e1ab0"/>
+				<imageExpression><![CDATA["qe1mkmkf3g77hvogrrgm72im0m.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="230" y="111" width="100" height="30" uuid="e471a3ae-76f4-4a96-83e3-a16f97c1b110"/>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="140" width="100" height="30" uuid="55471e42-fae4-4485-ba45-bfbdf2e59a9a"/>
+				<textFieldExpression><![CDATA[$F{apellido}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="170" width="100" height="30" uuid="11ae2f41-9931-42d4-b7d4-d29678bb012b"/>
+				<textFieldExpression><![CDATA[$F{fechaNacimiento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="200" width="100" height="30" uuid="51b7aa50-72c5-4d56-84b7-fdc03f34c212"/>
+				<textFieldExpression><![CDATA[$F{lugarNacimiento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="230" width="100" height="30" uuid="2b3582d7-7706-4f25-8a6c-c07481dab5ec"/>
+				<textFieldExpression><![CDATA[$F{direccion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="260" width="100" height="30" uuid="db9b627e-93d4-4509-b839-dd15eeeeeb9a"/>
+				<textFieldExpression><![CDATA[$F{municipo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="290" width="100" height="30" uuid="558656ec-44b0-4795-93ab-0a2d5bc2400d"/>
+				<textFieldExpression><![CDATA[$F{provincia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="320" width="100" height="30" uuid="adf3ae1f-b694-4f71-8ec7-6561febb0426"/>
+				<textFieldExpression><![CDATA[$F{movil}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="350" width="100" height="30" uuid="b6856e14-2c5f-43c8-8ea4-8b11bd72c580"/>
+				<textFieldExpression><![CDATA[$F{telefono}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField>
+				<reportElement x="420" y="15" width="100" height="30" uuid="49795a7e-cf03-4575-8e4a-370c3a306c2c"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
